@@ -1,0 +1,237 @@
+body{
+    background: url(../img/bd-bd.png) repeat-x;
+}
+.w{
+    width: 940px;
+    margin:0px auto;
+}
+.logo{
+    padding-top:37px;
+    margin-left: 15px;
+    /* background-color: aquamarine; */
+    
+}
+/* 解决高度塌陷问题 */
+.clearfix:before,
+.clearfix:after{
+    content: "";
+    display: table;
+    clear:both;
+}
+.nav{
+    float: right;
+    margin-top: 60px;
+}
+.nav li{
+    float: left;
+    padding: 0px 10px 10px;
+    border-left: 1px #d6d6d6 dotted;
+}
+.nav a{
+    font: bold 15px 宋体；
+    color: #666;
+    text-decoration:none;
+}
+.nav p{
+    color: #b7b7b7;
+    font: 11px tahoma;
+    padding: 5px 0px;
+}
+.nav a:hover{
+    color: #a1a1a1;
+    text-decoration: underline;
+}
+.banner{
+    padding: 50px 0px;
+    height: 265px;
+    background: url(../img/shadow.png) no-repeat bottom center;
+    position: relative;
+}
+.pointerDiv{
+    position: absolute;
+    top: 340px;
+    left: 30px;
+}
+.pointerDiv a{
+    float: left;
+    width: 17px;
+    height: 17px;
+    background: url(../img/btn1.png) no-repeat;
+    margin-left: 4px;
+}
+.pointerDiv .active,
+.pointerDiv a:hover{
+    background: url(../img/btn2.png)  no-repeat;
+}
+.content{
+    background: url(../img/h1.png) no-repeat bottom center;
+    /* background-color: aqua; */
+}
+.content h1{
+    text-align: center;
+    font:  bold  24px Georgia;
+    padding: 6px 0px 20px 0;
+    /* background-color: aquamarine; */
+    margin-bottom: 38px;
+    background: url(../img/h1.png) no-repeat bottom center;
+}
+
+.content .logic, .content .solution , .content .culture,
+.contact .sc, .contact .nu, .contact .co{
+    float: left;
+    width: 300px;
+
+}
+.content .solution ,.contact .co{
+    float: left;
+    width: 300px;
+    margin: 0px 20px;
+}
+.culture {
+    float: left;
+    width: 300px;
+    
+}
+.content .perfectlogic {
+     font:21px Georgia;
+     color: #11719e;
+ }
+ .content .perfect2{
+     color: #8c8c8c;
+     font: 12px Helvetica;
+ }
+
+ .content .logicpicture{
+    text-align: center;
+    padding-top: 12px ;
+ }
+
+ .content .logicPar{
+    height: 92px;
+    font: 13px Helvetica;
+    color: #3e3e3e;
+ }
+.content .btnLeft{
+    margin: 20px 5px 35px;
+}
+
+.contact {
+    background: url(../img/h1.png) no-repeat top center;
+}
+.contact .sc{
+
+}
+.contact .co{
+/* margin: 20px 0px; */
+
+}
+.contact .nu{
+  
+}
+.contact .sendbtn{
+    background: url(../img/sendbtn.png) no-repeat ;
+    width: 164px;
+    height: 34px;
+    margin: 11px 0px 23px;
+    border: none;
+
+    cursor: pointer;
+}
+
+.contact .txt{
+    width: 279px;
+    height: 36px;
+    line-height: 36px;/*设置行高，居中*/
+    background: url(../img/txt1.png) no-repeat;
+    border: none;
+    margin: 0px 0px 16px 0px; 
+    padding: 0px 10px;
+}
+.contact .tarea{
+    background: url(../img/txtarea.png) no-repeat;
+    height: 135px ;
+    width: 284px;
+    border: none;
+    overflow: hidden; /*去除滚动条*/
+    resize: none;
+    /* padding: 0px;
+    margin: 0px; */
+    padding: 0px 10px;
+
+}
+.contact h2{
+    color: #444444;
+    font: 18px/1 Georgia;
+    border-bottom: 1px dashed #d3d3d3 ;
+    padding: 44px 0px 10px 0px;
+    margin-bottom: 15px;
+    /* padding: 0px;
+    margin: 0px; */
+}
+.contact .sc .newsletter{
+    color: black;
+    font: bold 18px/1  "gill sans mt";
+    border-bottom: 1px dashed #d3d3d3 ;
+    padding: 38px 0px 10px 0px;
+    margin-bottom: 15px;
+}
+.contact .p2{
+    
+    font: 12px/1 Helvetica;
+    color: #444444;
+}
+.contact .picture{
+    margin: 4px 0px;
+}
+.contact .sc .txtex{
+    width: 279px;
+    height: 36px;
+    line-height: 36px;/*设置行高，居中*/
+    background: url(../img/txt1.png) no-repeat;
+    border: none;
+    margin: 5px 0px 4px 0px; 
+    padding: 0px 10px;
+}
+.contact .nu img{
+
+    float: left;
+    margin-right: 8px;
+}
+.contact .nu p{
+    color: #444444;
+    font: 12px/1 helvetica;
+    height: 59px;
+    border-bottom: 1px dashed #d3d3d3;
+    margin-bottom: 8px;
+    padding: 7px;
+}
+.contact .nu .sendbtn{
+    margin-top: 4px;
+}
+ .footer{
+    height: 173px;
+    background: #333333;
+    border-top: 10px solid  #4c4c4c;
+}
+.footer  a , .footer p{
+    color: #999999;
+    font: 11px helvetica;
+    text-decoration: none;
+
+}
+.footer a:hover{
+    color: #cccacc;
+}
+.footer .copy{
+    float: right;
+    display: block;
+}
+.footer .w{
+    padding-top: 18px;
+
+}
+.footer p{
+    margin-left: 8px;
+    margin-right: 23px;
+    margin-bottom: 8px;
+}
