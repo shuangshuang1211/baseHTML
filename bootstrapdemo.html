@@ -19,6 +19,10 @@
             border: 1px solid #ddd;
             background: darkgrey;
         } */
+        .rightfloat{
+            display: block;
+            float:right;
+        }
     </style>
 </head>
 <body>
@@ -29,25 +33,34 @@
         </div>
         <div class="collapse navbar-collapse" id="navbar">
                 <ul class="nav navbar-nav">
-                   <li class="active"><a href="#" >Home</a></li>
-                   <li><a href="#">About</a></li>
-                   <li><a href="#">Contact</a></li>
+                   <li class="active"><a href="#" ><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                   <li><a href="#"><span class="glyphicon glyphicon-asterisk"></span> About</a></li>
+                   <li><a href="#"><span class="glyphicon glyphicon-headphones"></span> Contact</a></li>
                 </ul>
-            </div>
+                <ul class="nav navbar-nav pull-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-bell "></span></a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-user "></span>&nbsp;Login</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-exclamation-sign "></span>&nbsp;Register</a></li>                                    
+                </ul>
+        </div>
+        <div class="container">
+
+        </div>
     </div>
 
  </nav>
 <div class="container">
     <div class="starter">
-        <h1>Bootstrap learnning example</h1>
-         <p class="lead">欢迎来到Bootstrap练习主页</p>
+        <h1>Bootstrap Learnning Demo</h1>
+         <p class="lead">欢迎来到Bootstrap之家
+         </p>
     </div>
     <div class="row">
-        <div class="col-md-2 col-md-offset-2">col-md-1</div>
-        <div class="col-md-2">col-md-1</div>
+        <div class="col-md-2 col-md-offset-2"></div>
+        <div class="col-md-2"></div>
     </div>
 </div>  
-<div class="container">
+<!-- <div class="container">
     <table class="table table-hover table-bordered">
         <thead>
             <tr class="info">
@@ -89,7 +102,7 @@
             <input type="file" >
             <p class="help-block">选择您的文件</p>
     </div>
-</from>
+</from> -->
 <from class="form-horizontal">
     <div class="form-group">
         <label class="col-sm-3 control-label" > 用户名</label>
@@ -120,6 +133,10 @@
         </div>
     </div>
 </from>
-<script src=""></script>
+
+
+
+<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
